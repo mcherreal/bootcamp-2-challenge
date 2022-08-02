@@ -9,8 +9,10 @@
    Se deben eliminar los permisos del 'grupo' y de 'otros'
 
 3. Identificar el tipo de permisos que necesita ser cambiado.
+   ```
    chmod u=rwx,go= /home/Lista_Precios 
-
+   ```
+   
 4. Verificar los permisos de acceso al archivo
     
 
