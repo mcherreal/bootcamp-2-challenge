@@ -6,12 +6,12 @@ mkdir foo/empty/
 
 if [[ $1 = "" ]]
 then
-    "Que me gusta bash!!!!" > foo/dummy/file1.txt 
+  echo "Que me gusta bash!!!!" | tee -a foo/dummy/file1.txt 
 else
-    $1 > foo/dummy/file1.txt 
+  echo $1 | tee -a foo/dummy/file1.txt 
 fi
 
-"" > foo/dummy/file2.txt
+echo "" | tee -a foo/dummy/file2.txt
 
 cp foo/dummy/file1.txt foo/dummy/file2.txt
 
