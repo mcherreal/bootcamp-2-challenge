@@ -15,5 +15,6 @@
    
 4. Verificar los permisos de acceso al archivo
     
+![image](https://user-images.githubusercontent.com/74672265/182474038-bb5db365-5c72-467c-9629-408fe9e9189c.png)
 
 
